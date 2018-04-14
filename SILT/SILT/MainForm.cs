@@ -19,7 +19,7 @@ namespace SILT
         private Image[] _images = new Image[3];
         private string _currentImageFile;
         private List<string> _undoFiles = new List<string>();
-        private const int _MAX_LABELS = 13;
+        private const int _MAX_LABELS = 26;
         #endregion
 
         #region Constructor
