@@ -456,7 +456,7 @@
             this.textBox1.ForeColor = System.Drawing.SystemColors.GrayText;
             this.textBox1.Location = new System.Drawing.Point(636, 18);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(137, 17);
+            this.textBox1.Size = new System.Drawing.Size(154, 17);
             this.textBox1.TabIndex = 76;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "(press F5 to refresh)";
@@ -515,6 +515,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureUndo1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
