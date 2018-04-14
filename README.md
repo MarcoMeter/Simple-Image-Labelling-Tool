@@ -9,6 +9,7 @@ SILT is a very trivial tool to help labeling images. It's not a complete softwar
 - Assigns labels by moving the image to its subdirectory
 - Reads labels if subdirectories are present in the working directory
 - Undo function
+- Supports 26 labels
 
 # Usage
 
@@ -16,4 +17,4 @@ SILT is a very trivial tool to help labeling images. It's not a complete softwar
 - Write labels into the input fields or create subdirectories before choosing the working directory
 - Hit the button next to the label input field to assign that label to the image
 - Press F5 to refresh
-- Press Backspace or hit the Undo button for undoing the last label
+- Press F8 or hit the Undo button for undoing the last label

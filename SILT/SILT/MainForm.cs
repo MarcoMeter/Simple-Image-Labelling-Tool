@@ -68,13 +68,13 @@ namespace SILT
         }
 
         /// <summary>
-        /// Key pressed event for undoing a label (backspace) or updating the images (F5).
+        /// Key pressed event for undoing a label (F8) or updating the images (F5).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode.Equals(Keys.Back)) // Backspace key
+            if(e.KeyCode.Equals(Keys.F8)) // F8 key
             {
                 Undo();
             }
@@ -149,6 +149,71 @@ namespace SILT
         {
             ApplyLabel(label12.Text, _currentImageFile);
         }
+
+        private void DoLabelButton13_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label13.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton14_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label14.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton15_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label15.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton16_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label16.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton17_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label17.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton18_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label18.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton19_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label19.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton20_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label20.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton21_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label21.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton22_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label22.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton23_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label23.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton24_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label24.Text, _currentImageFile);
+        }
+
+        private void DoLabelButton25_Click(object sender, EventArgs e)
+        {
+            ApplyLabel(label25.Text, _currentImageFile);
+        }
         #endregion
         #endregion
 
@@ -191,7 +256,7 @@ namespace SILT
                 }
                 else
                 {
-                    picturePreview1.Image.Dispose();
+                    picturePreview1.Image = null;
                 }
 
                 if (files.Length > 2)
@@ -200,12 +265,13 @@ namespace SILT
                 }
                 else
                 {
-                    picturePreview2.Image.Dispose();
+                    picturePreview2.Image = null;
                 }
             }
             else
             {
-                toLabelPicture.Image.Dispose();
+                toLabelPicture.Image = null;
+                _currentImageFile = "";
             }
 
             remainingImagesText.Text = "Remaining Images: " + files.Length;
@@ -258,6 +324,12 @@ namespace SILT
         {
             // Check if a label was entered
             if(label.Length == 0)
+            {
+                return;
+            }
+
+            // Check if no file is supplied (i.e. no files remain to be labeled)
+            if(_currentImageFile.Equals(""))
             {
                 return;
             }

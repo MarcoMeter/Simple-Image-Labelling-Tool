@@ -67,6 +67,32 @@
             this.undoButton = new System.Windows.Forms.Button();
             this.backspaceText = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.doLabelButton25 = new System.Windows.Forms.Button();
+            this.doLabelButton24 = new System.Windows.Forms.Button();
+            this.doLabelButton23 = new System.Windows.Forms.Button();
+            this.doLabelButton22 = new System.Windows.Forms.Button();
+            this.doLabelButton21 = new System.Windows.Forms.Button();
+            this.doLabelButton20 = new System.Windows.Forms.Button();
+            this.doLabelButton19 = new System.Windows.Forms.Button();
+            this.doLabelButton18 = new System.Windows.Forms.Button();
+            this.doLabelButton17 = new System.Windows.Forms.Button();
+            this.doLabelButton16 = new System.Windows.Forms.Button();
+            this.doLabelButton15 = new System.Windows.Forms.Button();
+            this.doLabelButton14 = new System.Windows.Forms.Button();
+            this.doLabelButton13 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.toLabelPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturePreview1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturePreview2)).BeginInit();
@@ -461,11 +487,271 @@
             this.textBox1.TabStop = false;
             this.textBox1.Text = "(press F5 to refresh)";
             // 
+            // doLabelButton25
+            // 
+            this.doLabelButton25.Location = new System.Drawing.Point(1362, 403);
+            this.doLabelButton25.Name = "doLabelButton25";
+            this.doLabelButton25.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton25.TabIndex = 102;
+            this.doLabelButton25.UseVisualStyleBackColor = true;
+            this.doLabelButton25.Click += new System.EventHandler(this.DoLabelButton25_Click);
+            // 
+            // doLabelButton24
+            // 
+            this.doLabelButton24.Location = new System.Drawing.Point(1362, 373);
+            this.doLabelButton24.Name = "doLabelButton24";
+            this.doLabelButton24.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton24.TabIndex = 101;
+            this.doLabelButton24.UseVisualStyleBackColor = true;
+            this.doLabelButton24.Click += new System.EventHandler(this.DoLabelButton24_Click);
+            // 
+            // doLabelButton23
+            // 
+            this.doLabelButton23.Location = new System.Drawing.Point(1362, 343);
+            this.doLabelButton23.Name = "doLabelButton23";
+            this.doLabelButton23.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton23.TabIndex = 100;
+            this.doLabelButton23.UseVisualStyleBackColor = true;
+            this.doLabelButton23.Click += new System.EventHandler(this.DoLabelButton23_Click);
+            // 
+            // doLabelButton22
+            // 
+            this.doLabelButton22.Location = new System.Drawing.Point(1362, 313);
+            this.doLabelButton22.Name = "doLabelButton22";
+            this.doLabelButton22.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton22.TabIndex = 99;
+            this.doLabelButton22.UseVisualStyleBackColor = true;
+            this.doLabelButton22.Click += new System.EventHandler(this.DoLabelButton22_Click);
+            // 
+            // doLabelButton21
+            // 
+            this.doLabelButton21.Location = new System.Drawing.Point(1362, 283);
+            this.doLabelButton21.Name = "doLabelButton21";
+            this.doLabelButton21.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton21.TabIndex = 98;
+            this.doLabelButton21.UseVisualStyleBackColor = true;
+            this.doLabelButton21.Click += new System.EventHandler(this.DoLabelButton21_Click);
+            // 
+            // doLabelButton20
+            // 
+            this.doLabelButton20.Location = new System.Drawing.Point(1362, 253);
+            this.doLabelButton20.Name = "doLabelButton20";
+            this.doLabelButton20.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton20.TabIndex = 97;
+            this.doLabelButton20.UseVisualStyleBackColor = true;
+            this.doLabelButton20.Click += new System.EventHandler(this.DoLabelButton20_Click);
+            // 
+            // doLabelButton19
+            // 
+            this.doLabelButton19.Location = new System.Drawing.Point(1362, 222);
+            this.doLabelButton19.Name = "doLabelButton19";
+            this.doLabelButton19.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton19.TabIndex = 96;
+            this.doLabelButton19.UseVisualStyleBackColor = true;
+            this.doLabelButton19.Click += new System.EventHandler(this.DoLabelButton19_Click);
+            // 
+            // doLabelButton18
+            // 
+            this.doLabelButton18.Location = new System.Drawing.Point(1362, 192);
+            this.doLabelButton18.Name = "doLabelButton18";
+            this.doLabelButton18.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton18.TabIndex = 95;
+            this.doLabelButton18.UseVisualStyleBackColor = true;
+            this.doLabelButton18.Click += new System.EventHandler(this.DoLabelButton18_Click);
+            // 
+            // doLabelButton17
+            // 
+            this.doLabelButton17.Location = new System.Drawing.Point(1362, 162);
+            this.doLabelButton17.Name = "doLabelButton17";
+            this.doLabelButton17.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton17.TabIndex = 94;
+            this.doLabelButton17.UseVisualStyleBackColor = true;
+            this.doLabelButton17.Click += new System.EventHandler(this.DoLabelButton17_Click);
+            // 
+            // doLabelButton16
+            // 
+            this.doLabelButton16.Location = new System.Drawing.Point(1362, 132);
+            this.doLabelButton16.Name = "doLabelButton16";
+            this.doLabelButton16.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton16.TabIndex = 93;
+            this.doLabelButton16.UseVisualStyleBackColor = true;
+            this.doLabelButton16.Click += new System.EventHandler(this.DoLabelButton16_Click);
+            // 
+            // doLabelButton15
+            // 
+            this.doLabelButton15.Location = new System.Drawing.Point(1362, 103);
+            this.doLabelButton15.Name = "doLabelButton15";
+            this.doLabelButton15.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton15.TabIndex = 92;
+            this.doLabelButton15.UseVisualStyleBackColor = true;
+            this.doLabelButton15.Click += new System.EventHandler(this.DoLabelButton15_Click);
+            // 
+            // doLabelButton14
+            // 
+            this.doLabelButton14.Location = new System.Drawing.Point(1362, 71);
+            this.doLabelButton14.Name = "doLabelButton14";
+            this.doLabelButton14.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton14.TabIndex = 91;
+            this.doLabelButton14.UseVisualStyleBackColor = true;
+            this.doLabelButton14.Click += new System.EventHandler(this.DoLabelButton14_Click);
+            // 
+            // doLabelButton13
+            // 
+            this.doLabelButton13.Location = new System.Drawing.Point(1362, 42);
+            this.doLabelButton13.Name = "doLabelButton13";
+            this.doLabelButton13.Size = new System.Drawing.Size(25, 23);
+            this.doLabelButton13.TabIndex = 90;
+            this.doLabelButton13.UseVisualStyleBackColor = true;
+            this.doLabelButton13.Click += new System.EventHandler(this.DoLabelButton13_Click);
+            // 
+            // label13
+            // 
+            this.label13.Location = new System.Drawing.Point(1137, 43);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(219, 22);
+            this.label13.TabIndex = 77;
+            this.label13.TabStop = false;
+            this.label13.Tag = "labels";
+            // 
+            // label14
+            // 
+            this.label14.Location = new System.Drawing.Point(1137, 73);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(219, 22);
+            this.label14.TabIndex = 78;
+            this.label14.TabStop = false;
+            this.label14.Tag = "labels";
+            // 
+            // label15
+            // 
+            this.label15.Location = new System.Drawing.Point(1137, 103);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(219, 22);
+            this.label15.TabIndex = 79;
+            this.label15.TabStop = false;
+            this.label15.Tag = "labels";
+            // 
+            // label16
+            // 
+            this.label16.Location = new System.Drawing.Point(1137, 133);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(219, 22);
+            this.label16.TabIndex = 80;
+            this.label16.TabStop = false;
+            this.label16.Tag = "labels";
+            // 
+            // label17
+            // 
+            this.label17.Location = new System.Drawing.Point(1137, 163);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(219, 22);
+            this.label17.TabIndex = 81;
+            this.label17.TabStop = false;
+            this.label17.Tag = "labels";
+            // 
+            // label18
+            // 
+            this.label18.Location = new System.Drawing.Point(1137, 193);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(219, 22);
+            this.label18.TabIndex = 82;
+            this.label18.TabStop = false;
+            this.label18.Tag = "labels";
+            // 
+            // label19
+            // 
+            this.label19.Location = new System.Drawing.Point(1137, 223);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(219, 22);
+            this.label19.TabIndex = 83;
+            this.label19.TabStop = false;
+            this.label19.Tag = "labels";
+            // 
+            // label20
+            // 
+            this.label20.Location = new System.Drawing.Point(1137, 253);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(219, 22);
+            this.label20.TabIndex = 84;
+            this.label20.TabStop = false;
+            this.label20.Tag = "labels";
+            // 
+            // label21
+            // 
+            this.label21.Location = new System.Drawing.Point(1137, 283);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(219, 22);
+            this.label21.TabIndex = 85;
+            this.label21.TabStop = false;
+            this.label21.Tag = "labels";
+            // 
+            // label22
+            // 
+            this.label22.Location = new System.Drawing.Point(1137, 313);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(219, 22);
+            this.label22.TabIndex = 86;
+            this.label22.TabStop = false;
+            this.label22.Tag = "labels";
+            // 
+            // label23
+            // 
+            this.label23.Location = new System.Drawing.Point(1137, 343);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(219, 22);
+            this.label23.TabIndex = 87;
+            this.label23.TabStop = false;
+            this.label23.Tag = "labels";
+            // 
+            // label24
+            // 
+            this.label24.Location = new System.Drawing.Point(1137, 373);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(219, 22);
+            this.label24.TabIndex = 88;
+            this.label24.TabStop = false;
+            this.label24.Tag = "labels";
+            // 
+            // label25
+            // 
+            this.label25.Location = new System.Drawing.Point(1137, 403);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(219, 22);
+            this.label25.TabIndex = 89;
+            this.label25.TabStop = false;
+            this.label25.Tag = "labels";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1138, 465);
+            this.ClientSize = new System.Drawing.Size(1394, 465);
+            this.Controls.Add(this.doLabelButton25);
+            this.Controls.Add(this.doLabelButton24);
+            this.Controls.Add(this.doLabelButton23);
+            this.Controls.Add(this.doLabelButton22);
+            this.Controls.Add(this.doLabelButton21);
+            this.Controls.Add(this.doLabelButton20);
+            this.Controls.Add(this.doLabelButton19);
+            this.Controls.Add(this.doLabelButton18);
+            this.Controls.Add(this.doLabelButton17);
+            this.Controls.Add(this.doLabelButton16);
+            this.Controls.Add(this.doLabelButton15);
+            this.Controls.Add(this.doLabelButton14);
+            this.Controls.Add(this.doLabelButton13);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label25);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.backspaceText);
             this.Controls.Add(this.undoButton);
@@ -559,6 +845,32 @@
         private System.Windows.Forms.Button undoButton;
         private System.Windows.Forms.TextBox backspaceText;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button doLabelButton25;
+        private System.Windows.Forms.Button doLabelButton24;
+        private System.Windows.Forms.Button doLabelButton23;
+        private System.Windows.Forms.Button doLabelButton22;
+        private System.Windows.Forms.Button doLabelButton21;
+        private System.Windows.Forms.Button doLabelButton20;
+        private System.Windows.Forms.Button doLabelButton19;
+        private System.Windows.Forms.Button doLabelButton18;
+        private System.Windows.Forms.Button doLabelButton17;
+        private System.Windows.Forms.Button doLabelButton16;
+        private System.Windows.Forms.Button doLabelButton15;
+        private System.Windows.Forms.Button doLabelButton14;
+        private System.Windows.Forms.Button doLabelButton13;
+        private System.Windows.Forms.TextBox label13;
+        private System.Windows.Forms.TextBox label14;
+        private System.Windows.Forms.TextBox label15;
+        private System.Windows.Forms.TextBox label16;
+        private System.Windows.Forms.TextBox label17;
+        private System.Windows.Forms.TextBox label18;
+        private System.Windows.Forms.TextBox label19;
+        private System.Windows.Forms.TextBox label20;
+        private System.Windows.Forms.TextBox label21;
+        private System.Windows.Forms.TextBox label22;
+        private System.Windows.Forms.TextBox label23;
+        private System.Windows.Forms.TextBox label24;
+        private System.Windows.Forms.TextBox label25;
     }
 }
 
