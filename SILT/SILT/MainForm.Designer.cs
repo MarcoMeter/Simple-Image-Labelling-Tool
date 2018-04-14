@@ -442,7 +442,7 @@
             this.backspaceText.ForeColor = System.Drawing.SystemColors.GrayText;
             this.backspaceText.Location = new System.Drawing.Point(636, 246);
             this.backspaceText.Name = "backspaceText";
-            this.backspaceText.Size = new System.Drawing.Size(122, 17);
+            this.backspaceText.Size = new System.Drawing.Size(154, 17);
             this.backspaceText.TabIndex = 75;
             this.backspaceText.TabStop = false;
             this.backspaceText.Text = "(or hit backspace)";
