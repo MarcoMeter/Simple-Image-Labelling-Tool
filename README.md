@@ -1,4 +1,4 @@
-# Simple Image Labeling Tool (SILT)
+# Simple Image Labelling Tool (SILT)
 
 SILT is a very trivial tool to help labeling images. It's not a complete software product, which secures any potential wrong interactions by the user (e.g. opening a directory with other files than images).
 
